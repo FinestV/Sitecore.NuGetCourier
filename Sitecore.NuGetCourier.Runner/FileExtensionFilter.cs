@@ -3,7 +3,7 @@ using System.Linq;
 using Sitecore.Update.Commands;
 using Sitecore.Update.Interfaces;
 
-namespace Sitecore.Courier
+namespace Sitecore.NuGetCourier.Runner
 {
     public class FileExtensionFilter : ICommandFilter
     {

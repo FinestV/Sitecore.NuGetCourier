@@ -43,6 +43,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\NuGet.Core.2.8.5\lib\net40-Client\NuGet.Core.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.Courier, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\Sitecore.Courier.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.Update">
       <HintPath>..\Libs\Sitecore.Update.dll</HintPath>
     </Reference>
@@ -58,6 +62,7 @@
   <ItemGroup>
     <Compile Include="CmdLineOptions.cs" />
     <Compile Include="Extensions.cs" />
+    <Compile Include="FileExtensionFilter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -67,12 +72,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Sitecore.Courier\Sitecore.Courier.csproj">
-      <Project>{4745ff1f-4d3f-4fd6-984b-667af2258774}</Project>
-      <Name>Sitecore.Courier</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
