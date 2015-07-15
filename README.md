@@ -12,7 +12,7 @@ Sitecore.NuGetCourier fills the gap by creating a NuGet Manifest during an autom
 
 The NuGet package produced can be consumed directly by Octopus Deploy https://octopusdeploy.com/
 
-<b>Sitecore.NuGetCourier.Runner Usage:<b>
+<b>Sitecore.NuGetCourier.Runner Usage:</b>
 
 -s source Source Directory
 
