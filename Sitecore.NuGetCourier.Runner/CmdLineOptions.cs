@@ -14,16 +14,16 @@ namespace Sitecore.NuGetCourier.Runner
         public string TargetDir { get; set; }
 
         [Option('n', "nuspec", Required = true,
-            HelpText = "Id of generated nuspec file")]
+            HelpText = "NuGet Manifest Id (#Id#.nuspec)")]
         public string NuspecId { get; set; }
 
 
         [Option('c', "config", Required = false,
-            HelpText = "Include all config files to transform at deploy time")]
+            HelpText = "Include all config files (use if we wan't to transform at deploy not build time)")]
         public bool IncludeConfigs { get; set; }
 
         [Option('p', "pack", Required = false,
-            HelpText = "Pack the generated nuspec file to create a nupkg with supplied version number")]
+            HelpText = "Pack the generated NuGet Manifest file to create a NuGet Package with this version number")]
         public string Pack { get; set; }
 
         [ParserState]
