@@ -14,12 +14,12 @@ The NuGet package produced can be consumed directly by Octopus Deploy https://oc
 
 <b>Sitecore.NuGetCourier.Runner Usage:</b>
 
--s source Source Directory
+<b>-s source</b> Source Directory
 
--t target Target Directory
+<b>-t target</b> Target Directory
 
--n nuspec NuGet Manifest Id (#Id#.nuspec)
+<b>-n nuspec</b> NuGet Manifest Id (#Id#.nuspec)
 
--c config Include all config files (use if we wan't to transform at deploy not build time)
+<b>-c config</b> Include all config files (use if we wan't to transform at deploy not build time)
 
--p pack Pack the generated NuGet Manifest file to create a NuGet Package with this version number
+<b>-p pack</b> Pack the generated NuGet Manifest file to create a NuGet Package with this version number
